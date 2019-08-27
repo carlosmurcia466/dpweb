@@ -1,0 +1,211 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+#header{
+    margin: auto;
+    width:1209px;
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #996781;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+
+
+}
+
+.nav li a:hover{
+
+    background-color: #D781AE;
+
+}
+
+.nav > li{
+    float: left;
+
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover> ul{
+    display: block;
+}
+
+body{
+
+    font-family: Arial,Helvetica,sans-serif;
+    background-image: url(fotos/fondo3.png);
+
+
+}
+.contenedor{
+
+
+    width: 80%;
+
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    border: #797878 dotted 1px;
+
+}
+.h1{
+    text-align: left;
+    width: 80%;
+    border: #797878 dotted 1px;
+}
+.derecha{
+    float: right;
+}
+
+
+.tablaFormularios{
+    background-image: url(fotos/fondo3.png);
+    /* background-color: white; */
+    width: 550px;
+   /* text-align: center; */
+}
+
+
+table{
+    background-image: url(fotos/fondo3.png);
+    /* background-color: white; */
+
+   /* text-align: center; */
+}
+
+h1{
+    color: #773334;
+}
+
+h2{
+    color: #A33444;
+}
+
+h3{
+    color: #936447;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+label, input, textarea{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+}
+.rotulo{
+
+    width: 50%;
+    height: 30px;
+    left: 0px;
+    vertical-align: top;
+    float: left;
+    background-color: #D2CECE;
+    text-align: right;
+}
+.rotuloAlto{
+    width: 50%;
+    height: 100px;
+    left: 0px;
+    vertical-align: top;
+    float: left;
+    background-color: #D2CECE;
+    text-align: right;
+}
+.campo{
+    width: 90%;
+    height: 30px;
+    left: 0px;
+    vertical-align: top;
+    float: left;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#prod {
+  width:60px;
+}
+#prod2 {
+  width:60px;
+}
+#pro{
+  border: 1px solid #dddddd;
+}
